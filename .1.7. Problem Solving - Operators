@@ -1,0 +1,4 @@
+celsius = float(input('celsius: '))
+f = 1.8*celsius + 32.0
+
+print(f"fahrenheit: {f}")
