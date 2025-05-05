@@ -1,0 +1,9 @@
+word = input("")
+
+orignal = word
+word = word[::-1]
+
+if orignal == word:
+	print("palindrome")
+else:
+	print("not a palindrome")
